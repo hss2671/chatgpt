@@ -8,6 +8,10 @@ export default {
       method: request.method,
       body: request.body,
       redirect: 'follow'
+mixin: # object
+  rules:
+      DOMAIN-SUFFIX,openai.com,🚀 ChatGPT
+      DOMAIN-SUFFIX,chatgpt.com,🚀 ChatGPT
     });
   }
 }
