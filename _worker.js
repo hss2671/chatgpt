@@ -1,4 +1,4 @@
-const TELEGRAPH_URL = 'https://chatgpt.com';
+const TELEGRAPH_URL = 'https://api.openai.com';
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
